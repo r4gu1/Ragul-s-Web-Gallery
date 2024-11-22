@@ -286,9 +286,23 @@ export const projects = [
     github: "https://github.com/r4gu1/Todo-App",
     webapp: "https://todo-app-pi-drab-85.vercel.app//",
   },
-  
+
   {
     id: 5,
+    title: "Weather App",
+    date: "OCT 2024",
+    description:
+      "My weather application is a responsive, user-friendly tool that adapts seamlessly to all devices. It features dynamic weather animations and a clean, clutter-free design for optimal usability. Built with precision, it showcases my expertise in frontend and backend development. This project blends functionality with visual appeal to deliver an engaging experience. ",
+    image:
+      "https://raw.githubusercontent.com/r4gu1/portfolio-img/master/img/weather.png", 
+    tags: ["HTML","CSS","JavaScript","React Js", "API Key"],
+    category: "web app",
+    github: "https://github.com/r4gu1/weather-app",
+    webapp: "https://weather-app-one-lovat-48.vercel.app/",
+  },
+  
+  {
+    id: 6,
     title: "BulkMail App",
     date: "Sep 2024",
     description:
