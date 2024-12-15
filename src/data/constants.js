@@ -11,7 +11,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/r4gu1",
   resume:
-    "https://drive.google.com/file/d/1Qd3GxpwFyiLCsr7IVnpsnUtbcJz464aC/view?usp=drive_link",
+    "https://drive.google.com/file/d/1SCF6pq3FEkMUYOmPuSgjALf4ZS43lJnN/view?usp=sharing",
   linkedin: "https://www.linkedin.com/feed/?trk=onboarding-landing",
   WhatsApp: "https://wa.me/+918015194157",
   insta: "https://www.instagram.com/ox_ragul_xo/",
@@ -146,23 +146,9 @@ export const skills = [
 
 
 export const experiences = [
+ 
   {
     id: 0,
-    img: "https://raw.githubusercontent.com/r4gu1/portfolio-img/master/img/ncc.jpeg",
-    role: "NCC B CERTIFICATE",
-    company: "National Cadet Corps",
-    date: "sep 2022 - Present",
-    desc: "Building a foundation of key skills: time management, leadership, and teamwork—through practical experiences and dedicated learning.",
-    skills: [
-      "Discipline",
-      "Leadership",
-      "Time management",
-      "Teamwork",
-    ],
-    doc: "",
-  },
-  {
-    id: 1,
     img: "https://raw.githubusercontent.com/r4gu1/portfolio-img/master/img/infosys.png",
     role: "Infosys Springboard ",
     company: "C Programming Course",
@@ -177,13 +163,28 @@ export const experiences = [
     doc: "https://raw.githubusercontent.com/r4gu1/portfolio-img/master/img/infosis1.jpg",
   },
   {
-    id: 2,
+    id: 1,
     img: "https://raw.githubusercontent.com/r4gu1/portfolio-img/master/img/nptel.png",
     role: "NPTEL COURSE",
     company: "Introduction to Industry 4.0 and Industrial Internet of Things ",
     date: "Jan - Apr 2024",
     desc: "Acquired in-depth knowledge in IIoT through a structured NPTEL course, focusing on integration and digital transformation in industrial applications.",
     doc: "https://raw.githubusercontent.com/r4gu1/portfolio-img/master/img/nptel1.jpg",
+  },
+  {
+    id: 2,
+    img: "https://raw.githubusercontent.com/r4gu1/portfolio-img/master/img/ncc.jpeg",
+    role: "NCC B CERTIFICATE",
+    company: "National Cadet Corps",
+    date: "sep 2022 - Present",
+    desc: "Building a foundation of key skills: time management, leadership, and teamwork—through practical experiences and dedicated learning.",
+    skills: [
+      "Discipline",
+      "Leadership",
+      "Time management",
+      "Teamwork",
+    ],
+    doc: "",
   },
   {
     id: 3,
