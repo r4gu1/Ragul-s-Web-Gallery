@@ -158,7 +158,7 @@ export const experiences = [
     skills: [
       "HTML","CSS","Tailwind CSS","JavaScript","React","Node.js","Express","MongoDB","Firebase","GitHub",
     ],
-    doc: "",
+    doc: "https://raw.githubusercontent.com/r4gu1/portfolio-img/master/img/Ragul%20R.png",
   },
  
   {
