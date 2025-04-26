@@ -103,7 +103,7 @@ function Footer() {
           <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          &copy; 2025 R4gul. All rights reserved.
+          &copy; 2025 R4GUL. All rights reserved.
         </Copyright>
 
       </FooterWrapper>
