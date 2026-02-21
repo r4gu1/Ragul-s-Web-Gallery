@@ -318,5 +318,19 @@ export const projects = [
     webapp: "https://todo-app-pi-drab-85.vercel.app//",
   },
 
+
+   {
+    id: 5,
+    title: "CRB Infestation Detection Website",
+    date: "SEP 2025",
+    description:
+      " A web-based interface developed for the project 'Few-Shot Classification of Coconut Rhinoceros Beetle Infestation in Drone Images Using Prototypical Networks'. The website presents the research workflow, dataset details, model architecture (NotchNet with CBAM attention), experimental results, and performance analysis. It provides a structured and user-friendly platform to showcase the meta-learning approach used for CRB detection in coconut plantations.",
+    image:
+      "https://raw.githubusercontent.com/r4gu1/portfolio-img/master/img/crbfsl.png", 
+      tags: ["HTML","CSS","JavaScript","React Js", "Local Storage"],
+    category: "web app",
+    github: "https://github.com/r4gu1/CRBFSL",
+    webapp: "https://crbfsl.vercel.app/",
+  },
 ];
 
