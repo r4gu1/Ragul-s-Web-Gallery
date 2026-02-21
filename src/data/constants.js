@@ -1,7 +1,7 @@
 export const Bio = {
   name: "Ragul R",
   roles: [
-    "Mern Stack Developer",
+    "Full Stack Developer",
     "Web Developer",
     "Programmer",
   ],
@@ -9,7 +9,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/r4gu1",
   resume:
-    "https://drive.google.com/file/d/1SCF6pq3FEkMUYOmPuSgjALf4ZS43lJnN/view?usp=sharing",
+    "https://drive.google.com/file/d/1KNjrVdzWvlOiPk4k5jT10P85G6xX5VrE/view?usp=sharing",
   linkedin: "https://www.linkedin.com/feed/?trk=onboarding-landing",
   WhatsApp: "https://wa.me/+918015194157",
   insta: "https://www.instagram.com/ox_ragul_xo/",
@@ -74,17 +74,18 @@ export const skills = [
          image:
            "data:image/png;base64,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",
        },
-      {
-        name: "MongoDB",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
-      },
+      
       
     ],
   },
   {
     title: "Others",
     skills: [
+      {
+        name: "SQL",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+      },
       {
         name: "Git",
         image:
@@ -100,11 +101,7 @@ export const skills = [
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
       },
-      {
-        name: "NPM",
-        image:
-          "https://static-00.iconduck.com/assets.00/npm-icon-512x512-qtfdrf37.png",
-      },
+      
       
     ],
   },
@@ -130,21 +127,21 @@ export const experiences = [
     doc:""
   },
  
-  {
-    id: 4,
-    img: "https://raw.githubusercontent.com/r4gu1/portfolio-img/master/img/uno.png",
-    role: "Industrial Internship",
-    company: "Uno Minda Pvt Ltd",
-    date: "Jan 2024",
-    desc: "Completed a hands-on internship with Uno Minda Pvt Ltd, a leading automotive components manufacturer, where I gained valuable experience in an engineering environment. This role strengthened my analytical and technical skills.",
-    skills: [
-      "Foundational Industry Knowledge",
-      "Adaptability",
-      "Analytical Thinking",
-      "Technical Documentation",
-    ],
-    doc:"https://raw.githubusercontent.com/r4gu1/portfolio-img/master/img/uno1.jpg"
-  },
+  // {
+  //   id: 4,
+  //   img: "https://raw.githubusercontent.com/r4gu1/portfolio-img/master/img/uno.png",
+  //   role: "Industrial Internship",
+  //   company: "",
+  //   date: "",
+  //   desc: "Completed a hands-on internship with Uno Minda Pvt Ltd, a leading automotive components manufacturer, where I gained valuable experience in an engineering environment. This role strengthened my analytical and technical skills.",
+  //   skills: [
+  //     "Foundational Industry Knowledge",
+  //     "Adaptability",
+  //     "Analytical Thinking",
+  //     "Technical Documentation",
+  //   ],
+  //   doc:"https://raw.githubusercontent.com/r4gu1/portfolio-img/master/img/uno1.jpg"
+  // },
   
   {
     id: 0,
@@ -229,6 +226,27 @@ export const education = [
     grade: "93.3%",
     desc: "I completed my class 10 education at Agasthiya Group of school,Vandavasi.",
     degree: "SSLC (X)",
+  },
+];
+
+export const internships = [
+  {
+    id: 0,
+    img: "https://raw.githubusercontent.com/r4gu1/portfolio-img/master/img/casa-logo.png", // replace with actual logo if available
+    role: "Full Stack Developer Intern",
+    company: "Casagrand Premier Builder Limited",
+    date: "Chennai | Jan 2026 ",
+    desc: "Contributed to the development of a real-time, role-based Ticket Management System designed to streamline internal issue resolution workflows. Engineered department-wise ticket routing logic to ensure efficient task allocation and faster response cycles. Integrated automated email notification workflows using SMTP for ticket creation, assignment, and resolution, significantly improving communication transparency and operational efficiency.",
+    skills: [
+      "Full Stack Development",
+      "Role-Based Access Control (RBAC)",
+      "SMTP Integration",
+      "Backend Development",
+      "Frontend Development",
+      "Database Management",
+      "Problem Solving"
+    ],
+    doc: "", // add project demo or document link if available
   },
 ];
 
