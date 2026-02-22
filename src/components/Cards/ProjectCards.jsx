@@ -41,9 +41,10 @@ const Card = styled.div`
 const Image = styled.img`
     width: 100%;
     height: 180px;
-    background-color: ${({ theme }) => theme.white};
+    background: linear-gradient(135deg, ${({ theme }) => theme.primary} 0%, ${({ theme }) => theme.primary + 50} 100%);
     border-radius: 10px;
     box-shadow: 0 0 16px 2px rgba(0,0,0,0.3);
+    object-fit: cover;
 `
 
 const Tags = styled.div`
@@ -123,9 +124,33 @@ const Avatar = styled.img`
 `
 
 const ProjectCards = ({project,setOpenModal}) => {
+    const [imageError, setImageError] = React.useState(false);
+    
+    const handleImageError = () => {
+        setImageError(true);
+    };
+    
     return (
         <Card onClick={() => setOpenModal({state: true, project: project})}>
-            <Image src={project.image}/>
+            {!imageError ? (
+                <Image src={project.image} onError={handleImageError} alt={project.title}/>
+            ) : (
+                <Image as="div" style={{
+                    background: `linear-gradient(135deg, #854CE6 0%, #b78fd1 100%)`,
+                    width: '100%',
+                    height: '180px',
+                    borderRadius: '10px',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    color: 'white',
+                    fontSize: '14px',
+                    fontWeight: 'bold',
+                    boxShadow: '0 0 16px 2px rgba(0,0,0,0.3)'
+                }} >
+                    {project.title}
+                </Image>
+            )}
             <Tags>
                 {project.tags?.map((tag, index) => (
                 <Tag>{tag}</Tag>
