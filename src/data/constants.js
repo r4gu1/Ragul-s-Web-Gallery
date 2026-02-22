@@ -320,7 +320,7 @@ export const projects = [
 
 
    {
-    id: 5,
+    id: 3,
     title: "CRB Infestation Detection Website",
     date: "SEP 2025",
     description:
@@ -332,5 +332,24 @@ export const projects = [
     github: "https://github.com/r4gu1/CRBFSL",
     webapp: "https://crbfsl.vercel.app/",
   },
+
+  {
+  id: 7,
+  title: "Requirement Buddy",
+  date: "JAN 2026",
+  description:
+    "Requirement Buddy is an AI-powered automation tool designed to reduce the workload of Business Development teams in software companies. It processes client phone calls or text-based requirements, converts audio into text using AssemblyAI API, and extracts only the technical requirements using OpenRouter API. The system delivers structured technical summaries to BD teams, saving time and improving efficiency.",
+  image: "https://raw.githubusercontent.com/r4gu1/portfolio-img/master/img/Requirement-Buddy.png",
+  tags: [
+    "React JS",
+    "Node JS",
+    "OpenRouter API",
+    "AssemblyAI API",
+    "AI Automation",
+  ],
+  category: "Model Website",
+  github: "https://github.com/r4gu1/Requirement-Buddy",
+  webapp: "https://requirement-buddy.vercel.app/",
+}
 ];
 
